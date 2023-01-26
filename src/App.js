@@ -1,9 +1,10 @@
-import Search from 'antd/es/transfer/search';
+import Search from './components/Search';
 import { useState } from 'react';
 import './App.css';
 import AddFoodForm from './components/AddFoodForm';
 import FoodBox from './components/FoodBox';
 import foods from './foods.json';
+
 
 function App() {
   const [food, setFoods] = useState(foods);
